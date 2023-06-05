@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import LeftGradient from "@/public/images/left-gradient.png";
+import RightGradient from "@/public/images/right-gradient.png";
 import Marquee from "react-fast-marquee";
 import CompanyCard from "../ui/company-card";
 import Company1 from "@/public/images/company-1.png";
@@ -110,7 +113,7 @@ export default function Companies() {
   ];
 
   return (
-    <div>
+    <div className="relative">
       <Marquee className="mb-[0.1rem]">
         {companyList1.map((company, index) => {
           return (
@@ -138,6 +141,12 @@ export default function Companies() {
           );
         })}
       </Marquee>
+      <div className="absolute top-0 bottom-0 left-0 right-auto w-[10.31em] z-10 block">
+        <Image src={LeftGradient} className="h-[100%] w-[100%]" alt="temp" />
+      </div>
+      <div className="absolute top-0 bottom-0 left-auto right-0 w-[10.31em] z-10 block">
+        <Image src={RightGradient} className="h-[100%] w-[100%]" alt="temp" />
+      </div>
     </div>
   );
 }

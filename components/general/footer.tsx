@@ -19,19 +19,33 @@ export default function Footer() {
             </div>
             <span className="block bg-[#d1d3cd] h-[1px] w-[39%] rounded-full"></span>
           </div>
-          <p className="text-center text-xl font-medium font-montreal mt-10">
+          <p className="text-center text-xl font-medium font-montreal my-12">
             Labyrinth is a highly vetted membership community for entrepreneurs,
             founders and CEOs.
           </p>
+          <div
+            className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+            data-aos="zoom-y-out"
+            data-aos-delay="300"
+          >
+            <div>
+              <a
+                className="btn shadow-4xl text-white font-montreal bg-blue-500  hover:shadow-3xl w-full sm:w-auto sm:ml-4 px-24 transition duration-[0.4s] text-xl"
+                href="https://szuv34ek50v.typeform.com/to/VJtnptbh"
+              >
+                Apply Now
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-8">
+        <div className="flex flex-col  md:flex-row items-center md:justify-between py-4 md:py-8">
           {/* Social as */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
-                href="#0"
+                href="https://twitter.com/seantanyurong"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
               >

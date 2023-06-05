@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import LeftGradient from "@/public/images/left-gradient.png";
+import RightGradient from "@/public/images/right-gradient.png";
 import Marquee from "react-fast-marquee";
 import MemberCard from "../ui/member-card";
 import { Balancer } from "react-wrap-balancer";
@@ -109,7 +112,7 @@ export default function Features() {
 
   return (
     <section className="relative">
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl mx-auto pb-2 px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -127,34 +130,42 @@ export default function Features() {
           </div>
         </div>
       </div>
-      <Marquee className="pb-4">
-        {memberList1.map((member, index) => {
-          return (
-            <div className="col-span-9 lg:col-span-3">
-              <MemberCard
-                image={member.image}
-                name={member.name}
-                title={member.title}
-                description={member.description}
-              />
-            </div>
-          );
-        })}
-      </Marquee>
-      <Marquee direction="right" className="pb-4">
-        {memberList2.map((member, index) => {
-          return (
-            <div className="col-span-9 lg:col-span-3">
-              <MemberCard
-                image={member.image}
-                name={member.name}
-                title={member.title}
-                description={member.description}
-              />
-            </div>
-          );
-        })}
-      </Marquee>
+      <div className="relative">
+        <Marquee className="pb-4">
+          {memberList1.map((member, index) => {
+            return (
+              <div className="col-span-9 lg:col-span-3">
+                <MemberCard
+                  image={member.image}
+                  name={member.name}
+                  title={member.title}
+                  description={member.description}
+                />
+              </div>
+            );
+          })}
+        </Marquee>
+        <Marquee direction="right" className="pb-4">
+          {memberList2.map((member, index) => {
+            return (
+              <div className="col-span-9 lg:col-span-3">
+                <MemberCard
+                  image={member.image}
+                  name={member.name}
+                  title={member.title}
+                  description={member.description}
+                />
+              </div>
+            );
+          })}
+        </Marquee>
+        <div className="absolute top-0 bottom-0 left-0 right-auto w-[10.31em] z-10 block">
+          <Image src={LeftGradient} className="h-[100%] w-[100%]" alt="temp" />
+        </div>
+        <div className="absolute top-0 bottom-0 left-auto right-0 w-[10.31em] z-10 block">
+          <Image src={RightGradient} className="h-[100%] w-[100%]" alt="temp" />
+        </div>
+      </div>
     </section>
   );
 }

@@ -4,23 +4,23 @@ import Image from "next/image";
 export default function Conclusion() {
   return (
     <section className="relative">
-      <div className="py-12 md:py-20">
+      <div className="py-20 md:py-32">
         <div className="relative max-w-2xl mx-auto px-4 sm:px-6">
           <div className="col-span-6 lg:col-span-3">
             <h2 className="h3 mb-5">
               Who's right for Hampton...and who isn't?
             </h2>
-            <p className="mb-3 text-lg font-montreal">
+            <p className="mb-3 text-xl font-montreal">
               We are on a mission to create something truly special – a women's
               fitness community that goes beyond workouts and embraces the power
               of sisterhood.
             </p>
-            <p className="mb-3 text-lg font-montreal">
+            <p className="mb-3 text-xl font-montreal">
               Too often, we encountered judgment, unrealistic standards, and a
               sense of inadequacy that left us feeling discouraged and
               disconnected in our fitness journeys.
             </p>
-            <p className="mb-3 text-lg font-montreal">
+            <p className="mb-3 text-xl font-montreal">
               Starting Pace Fitness has been a labour of love, born out of a
               desire to provide a space where women can thrive, support each
               other, and prioritise their mental health alongside their physical
@@ -29,7 +29,7 @@ export default function Conclusion() {
               individual can grow at her own pace.
             </p>
 
-            <p className="mb-3 text-lg font-montreal">
+            <p className="mb-3 text-xl font-montreal">
               Pace Fitness is not just about fitness; it's about fostering a
               sense of belonging, empowerment, and growth. Together, we are
               redefining what it means to be a strong and united community of

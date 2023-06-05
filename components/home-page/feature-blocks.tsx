@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <section className="relative">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-20 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-4 md:pb-6">
             <h2 className="h3 mb-4">Member Benefits</h2>
@@ -14,11 +14,11 @@ export default function Introduction() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
-            <div className="relative flex flex-col items-center justify-center p-10 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-center justify-center p-10 bg-white rounded shadow-lg h-full">
               <Image src={Five} alt="temp" style={{ objectFit: "cover" }} />
             </div>
             {/* 2nd item */}
-            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-lg h-full">
               <h4 className="text-2xl font-bold mb-1">
                 Monthly Mastermind Groups
               </h4>
@@ -28,7 +28,7 @@ export default function Introduction() {
                 accelerate your business growth.
               </p>
             </div>
-            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-lg h-full">
               <h4 className="text-2xl font-bold mb-1">Digital Community</h4>
               <p className="text-xl font-montreal leading-snug">
                 Access to a digital and highly engaged community of founders who
@@ -36,14 +36,14 @@ export default function Introduction() {
                 weekly newsletter.
               </p>
             </div>{" "}
-            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-lg h-full">
               <h4 className="text-2xl font-bold mb-1">In-Person Community</h4>
               <p className="text-xl font-montreal leading-snug">
                 Our in-person event strategy is focused around three pillars:
                 monthly member dinners, annual retreats, and local adventures.
               </p>
             </div>{" "}
-            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-lg h-full">
               <h4 className="text-2xl font-bold mb-1">
                 Speaker Series & Education
               </h4>
@@ -53,7 +53,7 @@ export default function Introduction() {
                 across a variety of topics.
               </p>
             </div>{" "}
-            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col items-left text-left p-8 bg-white rounded shadow-lg h-full">
               <h4 className="text-2xl font-bold mb-1">Exclusive Perks</h4>
               <p className="text-xl font-montreal leading-snug">
                 We’ve secured exclusive discounts with the most popular software

@@ -36,11 +36,11 @@ export default function Hero() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pt-20 pb-12 md:pt-28 md:pb-20">
+        <div className="pt-44 pb-24 md:pt-52 md:pb-28">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-4xl md:text-[4.5em] font-bold leading-none mb-6 text-white"
+              className="text-5xl md:text-[4.5em] font-bold leading-none mb-6 text-white"
               data-aos="zoom-y-out"
             >
               <Balancer>
@@ -52,7 +52,7 @@ export default function Hero() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-3xl text-white mb-8 font-montreal"
+                className="text-2xl md:text-3xl text-white mb-8 font-montreal"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
@@ -64,17 +64,9 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                {/* <div>
-                  <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
-                  >
-                    Start free trial
-                  </a>
-                </div> */}
                 <div>
                   <a
-                    className="btn text-white font-montreal bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 px-20"
+                    className="btn shadow-4xl text-brown-400 font-montreal bg-[#071112] hover:bg-black hover:shadow-3xl w-full sm:w-auto sm:ml-4 px-24 border-[1px] transition duration-[0.4s] border-brown-400 text-xl"
                     href="#0"
                   >
                     Learn more

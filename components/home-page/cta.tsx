@@ -3,7 +3,7 @@ export default function Cta() {
     <section className="relative bg-blue-500">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-32 pb-12 md:pt-52 md:pb-32">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
@@ -27,10 +27,10 @@ export default function Cta() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 px-20"
+                    className="btn shadow-4xl text-brown-400 font-montreal bg-[#071112] hover:bg-black hover:shadow-3xl w-full sm:w-auto sm:ml-4 px-24 border-[1px] transition duration-[0.4s] border-brown-400 text-xl"
                     href="#0"
                   >
-                    Learn more
+                    Apply Now
                   </a>
                 </div>
               </div>

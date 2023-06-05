@@ -10,17 +10,17 @@ export default function Introduction() {
             {/* Left column - introduction */}
             <div className="col-span-6 lg:col-span-3 font-financier">
               <h2 className="h3 mb-5">Starting a food business is lonely.</h2>
-              <p className="mb-3 text-lg font-montreal">
+              <p className="mb-3 text-xl font-montreal">
                 We are on a mission to create something truly special – a
                 women's fitness community that goes beyond workouts and embraces
                 the power of sisterhood.
               </p>
-              <p className="mb-3 text-lg font-montreal">
+              <p className="mb-3 text-xl font-montreal">
                 Too often, we encountered judgment, unrealistic standards, and a
                 sense of inadequacy that left us feeling discouraged and
                 disconnected in our fitness journeys.
               </p>
-              <p className="mb-3 text-lg font-montreal">
+              <p className="mb-3 text-xl font-montreal">
                 Starting Pace Fitness has been a labour of love, born out of a
                 desire to provide a space where women can thrive, support each
                 other, and prioritise their mental health alongside their
@@ -29,7 +29,7 @@ export default function Introduction() {
                 that each individual can grow at her own pace.
               </p>
 
-              <p className="mb-3 text-lg font-montreal">
+              <p className="mb-3 text-xl font-montreal">
                 Pace Fitness is not just about fitness; it's about fostering a
                 sense of belonging, empowerment, and growth. Together, we are
                 redefining what it means to be a strong and united community of

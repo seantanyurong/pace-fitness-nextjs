@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         white: "#F6F6F6",
-        brown: { 400: "#d1bfae", 500: "#AA947F" },
+        brown: { 300: "#ccb5a0", 400: "#d1bfae", 500: "#AA947F" },
         gray: {
           100: "#FBFBFB",
           200: "#EAEAEA",
@@ -53,6 +53,9 @@ module.exports = {
         lg: "0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02)",
         xl: "0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.02)",
         "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.15)",
+        "3xl": "-5px 5px 0px #d1bfae",
+        "4xl": "-8px 8px 0px #d1bfae",
+        "5xl": "-3px 3px 0px #5e5e5e", // isn't actually a larger shadow
         inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.04)",
         outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
         none: "none",
