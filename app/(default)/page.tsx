@@ -1,6 +1,10 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  metadataBase: new URL("https://joinlabyrinth.vercel.app/"),
+  title: "Labyrinth",
+  description: "The private network for restaurant, cafe and bar owners.",
+  openGraph: {
+    images: "/og-image.png",
+  },
 };
 
 import Hero from "@/components/home-page/hero";

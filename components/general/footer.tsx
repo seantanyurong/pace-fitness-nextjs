@@ -20,8 +20,8 @@ export default function Footer() {
             <span className="block bg-[#d1d3cd] h-[1px] w-[39%] rounded-full"></span>
           </div>
           <p className="text-center text-xl font-medium font-montreal my-12">
-            Labyrinth is a highly vetted membership community for entrepreneurs,
-            founders and CEOs.
+            Labryinth is a highly vetted membership community for restaurant,
+            cafe and bar owners.
           </p>
           <div
             className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -48,6 +48,7 @@ export default function Footer() {
                 href="https://twitter.com/seantanyurong"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
+                target="_blank"
               >
                 <svg
                   className="w-8 h-8 fill-current"

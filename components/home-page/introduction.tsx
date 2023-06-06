@@ -9,31 +9,35 @@ export default function Introduction() {
           <div className="grid grid-cols-6 gap-y-16 sm:gap-16 w-full">
             {/* Left column - introduction */}
             <div className="col-span-6 lg:col-span-3 font-financier">
-              <h2 className="h3 mb-5">Starting a food business is lonely.</h2>
-              <p className="mb-3 text-xl font-montreal">
-                We are on a mission to create something truly special – a
-                women's fitness community that goes beyond workouts and embraces
-                the power of sisterhood.
+              <h2 className="h3 mb-5 text-blue-500">
+                Starting a food business is lonely.
+              </h2>
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                You have to make difficult decisions every day with imperfect
+                information on problems you’ve likely never faced before. It’s
+                daunting.
               </p>
-              <p className="mb-3 text-xl font-montreal">
-                Too often, we encountered judgment, unrealistic standards, and a
-                sense of inadequacy that left us feeling discouraged and
-                disconnected in our fitness journeys.
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                In our experience, the best way to overcome the challenges is to
+                learn from the wins and mistakes of others, and to surround
+                yourself with founders who’ve been there, done that.
               </p>
-              <p className="mb-3 text-xl font-montreal">
-                Starting Pace Fitness has been a labour of love, born out of a
-                desire to provide a space where women can thrive, support each
-                other, and prioritise their mental health alongside their
-                physical well-being. In this community, we uplift and inspire
-                one another, celebrating our unique strengths and journeys so
-                that each individual can grow at her own pace.
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                Whether you’re in the thick of it in Singapore or Thailand, or
+                you’re a restaurant owner in Indonesia, finding your people is
+                tough.
               </p>
 
-              <p className="mb-3 text-xl font-montreal">
-                Pace Fitness is not just about fitness; it's about fostering a
-                sense of belonging, empowerment, and growth. Together, we are
-                redefining what it means to be a strong and united community of
-                women.
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                But when you do find them, it’s life changing.
+              </p>
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                And that’s what Labyrinth is for.
+              </p>
+              <p className="mb-3 text-xl font-montreal text-blue-500">
+                Joining Labyrinth gives you immediate access to a tribe of
+                founders and entrepreneurs who are going through the same things
+                as you. Members consistently call it “life changing”.
               </p>
             </div>
 

@@ -116,16 +116,16 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h3 mb-4">
+            <h1 className="h3 mb-4 text-blue-500">
               <Balancer>
                 Labyrinth members run the most successful food & beverage
                 establishments, across a wide array of niches.
               </Balancer>
             </h1>
-            <p className="text-xl text-black font-montreal ">
-              Some were born into the industry, others a lifelong passion
-              project. But all our members seek belonging, support, and
-              connection with a selective group of their peers.
+            <p className="text-xl text-blue-500 font-montreal">
+              Some run michelin star restaurants, others humble cafes. But all
+              our members seek belonging, support, and connection with a
+              selective group of their peers.
             </p>
           </div>
         </div>
