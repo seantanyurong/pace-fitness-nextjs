@@ -134,7 +134,7 @@ export default function Features() {
         <Marquee className="pb-4">
           {memberList1.map((member, index) => {
             return (
-              <div className="col-span-9 lg:col-span-3">
+              <div className="col-span-9 lg:col-span-3" key={index}>
                 <MemberCard
                   image={member.image}
                   name={member.name}
@@ -148,7 +148,7 @@ export default function Features() {
         <Marquee direction="right" className="pb-4">
           {memberList2.map((member, index) => {
             return (
-              <div className="col-span-9 lg:col-span-3">
+              <div className="col-span-9 lg:col-span-3" key={index}>
                 <MemberCard
                   image={member.image}
                   name={member.name}

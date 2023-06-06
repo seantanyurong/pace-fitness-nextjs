@@ -117,7 +117,7 @@ export default function Companies() {
       <Marquee className="mb-[0.1rem]">
         {companyList1.map((company, index) => {
           return (
-            <div className="col-span-9 lg:col-span-3">
+            <div className="col-span-9 lg:col-span-3" key={index}>
               <CompanyCard image={company.image} />
             </div>
           );
@@ -126,7 +126,7 @@ export default function Companies() {
       <Marquee direction="right" className="mb-[0.1rem]">
         {companyList2.map((company, index) => {
           return (
-            <div className="col-span-9 lg:col-span-3">
+            <div className="col-span-9 lg:col-span-3" key={index}>
               <CompanyCard image={company.image} />
             </div>
           );
@@ -135,7 +135,7 @@ export default function Companies() {
       <Marquee className="mb-[0.1rem]">
         {companyList2.map((company, index) => {
           return (
-            <div className="col-span-9 lg:col-span-3">
+            <div className="col-span-9 lg:col-span-3" key={index}>
               <CompanyCard image={company.image} />
             </div>
           );
