@@ -28,7 +28,7 @@ export default function Cta() {
                 <div>
                   <a
                     className="btn shadow-4xl text-brown-400 font-montreal bg-[#071112] hover:bg-black hover:shadow-3xl w-full sm:w-auto sm:ml-4 px-24 border-[1px] transition duration-[0.4s] border-brown-400 text-xl"
-                    href="#0"
+                    href="https://szuv34ek50v.typeform.com/to/VJtnptbh"
                   >
                     Apply Now
                   </a>

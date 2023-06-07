@@ -17,9 +17,11 @@ export default function MemberCard({
   return (
     <div className="drop-shadow-sm flex rounded-2xl max-w-xl overflow-hidden mx-2 h-full">
       <Image
+        loading="eager"
         src={image}
         alt="temp"
         width={175}
+        height={500}
         style={{ objectFit: "cover" }}
       />
       <div className="p-8 text-left bg-white">

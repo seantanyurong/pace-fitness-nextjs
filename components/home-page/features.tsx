@@ -129,7 +129,22 @@ export default function Features() {
             </p>
           </div>
         </div>
+        {/* <div className="mx-auto grid gap-6 sm:hidden items-start">
+          {memberList1.map((member, index) => {
+            return (
+              <div className="" key={index}>
+                <MemberCard
+                  image={member.image}
+                  name={member.name}
+                  title={member.title}
+                  description={member.description}
+                />
+              </div>
+            );
+          })}
+        </div> */}
       </div>
+
       <div className="relative">
         <Marquee className="pb-4">
           {memberList1.map((member, index) => {
@@ -159,10 +174,10 @@ export default function Features() {
             );
           })}
         </Marquee>
-        <div className="absolute top-0 bottom-0 left-0 right-auto w-[10.31em] z-10 block">
+        <div className="hidden absolute top-0 bottom-0 left-0 right-auto w-[10.31em] z-10 sm:block">
           <Image src={LeftGradient} className="h-[100%] w-[100%]" alt="temp" />
         </div>
-        <div className="absolute top-0 bottom-0 left-auto right-0 w-[10.31em] z-10 block">
+        <div className="hidden absolute top-0 bottom-0 left-auto right-0 w-[10.31em] z-10 sm:block">
           <Image src={RightGradient} className="h-[100%] w-[100%]" alt="temp" />
         </div>
       </div>
