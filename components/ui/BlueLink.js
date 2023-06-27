@@ -20,7 +20,7 @@ const BlueLink = (props) => {
   return (
     <a
       href={props.link}
-      className={`inline-block cursor-pointer font-semibold text-link-main hover:text-link-hover underline ${
+      className={`inline-block cursor-pointer font-extrabold text-link-main hover:text-link-hover underline ${
         props.addClassName
       } ${renderSwitch(props.size)}`}
     >

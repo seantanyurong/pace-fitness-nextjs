@@ -29,7 +29,7 @@ function Header() {
               plugins={[responsive({ steps: 200 })]}
               alt="logo"
             /> */}
-            <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center mx-auto -left-[125px] sm:-left-[20px] -bottom-[45px]">
+            <div className="whitespace-nowrap -rotate-2 absolute bg-gradient-to-r from-highlight-orange to-highlight-sunlight py-1 px-4 rounded-md text-sm text-white font-extrabold tracking-widest flex items-center mx-auto -left-[125px] sm:-left-[20px] -bottom-[45px]">
               {[...Array(5)].map((x, i) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

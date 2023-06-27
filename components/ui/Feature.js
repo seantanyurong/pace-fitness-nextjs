@@ -15,7 +15,7 @@ const Feature = (props) => {
           style={{ objectFit: "cover" }}
         />
         <h3
-          className={`inline-block cursor-pointer font-semibold text-link-main hover:text-link-hover underline text-xl mt-6 group-hover:text-link-hover`}
+          className={`inline-block cursor-pointer font-extrabold text-link-main hover:text-link-hover underline text-xl mt-6 group-hover:text-link-hover`}
         >
           {props.primaryText}
         </h3>

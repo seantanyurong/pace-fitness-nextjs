@@ -33,7 +33,7 @@ body {
 body {
 } */
 
-@font-face {
+/* @font-face {
   font-family: "GRAPHIK";
   src: url("../css/font/GraphikLight.otf");
   font-weight: 300;
@@ -73,7 +73,7 @@ body {
   src: url("../css/font/GraphikBlack.otf");
   font-weight: 900;
   font-display: swap;
-}
+} */
 
 @layer base {
   h1 {

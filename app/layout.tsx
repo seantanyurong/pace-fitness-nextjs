@@ -1,63 +1,15 @@
 import "./css/style.css";
 
-// import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 // import localFont from "next/font/local";
 import Banner from "@/components/general/Banner";
 import Header from "@/components/general/Header";
 
-// const financier = localFont({
-//   src: [
-//     {
-//       path: "./css/font/test-financier-display-regular.woff2",
-//       weight: "400",
-//       style: "normal",
-//     },
-//     {
-//       path: "./css/font/test-financier-display-regular-italic.woff2",
-//       weight: "400",
-//       style: "italic",
-//     },
-//     {
-//       path: "./css/font/test-financier-display-bold.woff2",
-//       weight: "700",
-//       style: "normal",
-//     },
-//     {
-//       path: "././css/font/test-financier-display-bold-italic.woff2",
-//       weight: "700",
-//       style: "italic",
-//     },
-//   ],
-//   variable: "--font-financier",
-// });
-
-// const montreal = localFont({
-//   src: [
-//     {
-//       path: "./css/font/NeueMontreal-Bold.otf",
-//       weight: "700",
-//       style: "normal",
-//     },
-
-//     {
-//       path: "./css/font/NeueMontreal-Medium.otf",
-//       weight: "500",
-//       style: "normal",
-//     },
-//     {
-//       path: "./css/font/NeueMontreal-Regular.otf",
-//       weight: "400",
-//       style: "normal",
-//     },
-//   ],
-//   variable: "--font-montreal",
-// });
-
-// const inter = Inter({
-//   subsets: ["latin"],
-//   variable: "--font-inter",
-//   display: "swap",
-// });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Pace Fitness",
@@ -72,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`antialiased tracking-tight`}>
+      <body className={`${montserrat.className} antialiased tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Banner />
           <Header />

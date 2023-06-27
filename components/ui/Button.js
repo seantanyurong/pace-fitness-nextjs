@@ -5,7 +5,7 @@ const Button = (props) => {
     switch (param) {
       case "small":
         return (
-          <div className=" bg-primary-main hover:bg-primary-hover font-semibold py-3 px-3 rounded-full items-center">
+          <div className=" bg-primary-main hover:bg-primary-hover font-extrabold py-3 px-3 rounded-full items-center">
             <h3 className="text-sm sm:text-base text-white">
               {props.primaryText}
             </h3>
@@ -15,7 +15,7 @@ const Button = (props) => {
       case "large":
         return (
           <div className=" bg-primary-main hover:bg-primary-hover py-4 px-8 md:px-10 rounded-full items-center max-w-md">
-            <h3 className="text-xl md:text-2xl font-semibold text-white ">
+            <h3 className="text-xl md:text-2xl font-extrabold text-white ">
               {props.primaryText}
             </h3>
             <p className="text-xs sm:text-sm font-light text-white ">

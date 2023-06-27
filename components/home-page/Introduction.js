@@ -76,7 +76,7 @@ function Introduction() {
           <YellowContainer
             content={
               <div>
-                <h4 className="mb-2">Our Events</h4>
+                <h4 className="mb-2 font-bold">Our Events</h4>
                 {submenuLinkContent()}
               </div>
             }

@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import SectionWrapper from "../ui/SectionWrapper";
+import LogoImg from "public/images/Logo.webp";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -13,16 +15,16 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link href="/" className="inline-block " aria-label="Cruip">
-                {/* <AdvancedImage
-                  className="mx-auto h-20"
-                  cldImg={myImage}
-                  plugins={[responsive({ steps: 200 })]}
-                  alt="logo"
-                /> */}
+                <Image
+                  src={LogoImg}
+                  alt="temp"
+                  width={80}
+                  style={{ objectFit: "cover" }}
+                />
               </Link>
             </div>
             <div className="text-sm text-text-main">
-              <h5 to="#" className="text-text-main text-lg font-bold mb-2">
+              <h5 to="#" className="text-text-main text-lg font-extrabold mb-2">
                 A community for women's fitness.
               </h5>
               <p to="#" className="text-text-main">
