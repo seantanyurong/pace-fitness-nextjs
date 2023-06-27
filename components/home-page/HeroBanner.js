@@ -47,6 +47,7 @@ function HeroBanner() {
         alt="temp"
         className="mx-auto drop-shadow-3xl mb-10 rounded-lg w-6xl"
         style={{ objectFit: "cover" }}
+        placeholder="blur"
       />
       {/* <AdvancedImage
         className="mx-auto drop-shadow-3xl mb-10 rounded-lg w-6xl"

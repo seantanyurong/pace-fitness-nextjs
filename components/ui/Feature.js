@@ -13,6 +13,7 @@ const Feature = (props) => {
           href={props.link}
           alt={props.primaryText}
           style={{ objectFit: "cover" }}
+          placeholder="blur"
         />
         <h3
           className={`inline-block cursor-pointer font-extrabold text-link-main hover:text-link-hover underline text-xl mt-6 group-hover:text-link-hover`}

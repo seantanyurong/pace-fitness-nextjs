@@ -40,6 +40,7 @@ const Team = () => {
         alt="temp"
         className="my-8 mx-auto drop-shadow-3xl mb-10 rounded-lg w-6xl"
         style={{ objectFit: "cover" }}
+        placeholder="blur"
       />
       <div className="max-w-4xl mx-auto">
         <p className="text-xl mt-4">

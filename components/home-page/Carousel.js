@@ -61,6 +61,7 @@ const Carousel = () => {
                   alt="temp"
                   width={350}
                   style={{ objectFit: "cover" }}
+                  placeholder="blur"
                 />
               </div>
             </div>
