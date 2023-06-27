@@ -1,18 +1,104 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
 /* Additional styles */
-@import 'additional-styles/utility-patterns.css';
-@import 'additional-styles/range-slider.css';
-@import 'additional-styles/toggle-switch.css';
-@import 'additional-styles/theme.css';
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/theme.css";
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
-    .rtl {
-        direction: rtl;
-    }
+  .rtl {
+    direction: rtl;
+  }
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  letter-spacing: 0.02rem;
+}
+
+/* html {
+}
+
+body {
+} */
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikLight.otf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikRegular.otf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikMedium.otf");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikSemibold.otf");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikBold.otf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../css/font/GraphikBlack.otf");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply md:text-6xl;
+    @apply font-black;
+    @apply text-text-main;
+    @apply leading-none;
+  }
+
+  h2 {
+    @apply text-3xl;
+    @apply font-black;
+    @apply text-text-main;
+    @apply leading-tighter;
+  }
+
+  h4 {
+    @apply text-lg;
+    @apply font-semibold;
+    @apply text-text-main;
+  }
+
+  p {
+    @apply text-base;
+    @apply text-text-main;
+  }
+}

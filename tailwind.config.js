@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -8,14 +9,30 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: "#F6F6F6",
-        brown: { 300: "#ccb5a0", 400: "#d1bfae", 500: "#AA947F" },
+        primary: {
+          main: "#7d5d53",
+          hover: "#49352E",
+        },
+        link: { main: "#1e64e6", hover: "#1d2d35" },
+        text: { main: "#1d2d35", hover: "#1d2d35" },
+        highlight: {
+          eggshell: "#FFF5F7",
+          darkEggshell: "#f2eae8",
+          darkerEggshell: "#FEF7F0",
+          darkestEggshell: "#F4EDE6",
+          lightYellow: "#FFF5F7",
+          yellow: "#FFE42D",
+          sunlight: "#ffc7c7",
+          orange: "#fe9d9d",
+          pink: "#ff5c7a",
+          blue: "#1E64E6",
+        },
         gray: {
           100: "#FBFBFB",
           200: "#EAEAEA",
           300: "#DFDFDF",
           400: "#999999",
-          500: "#EFF0ED",
+          500: "#7F7F7F",
           600: "#666666",
           700: "#4C4C4C",
           800: "#333333",
@@ -26,7 +43,7 @@ module.exports = {
           200: "#CCE2FC",
           300: "#99C5FA",
           400: "#66A9F7",
-          500: "#071D1F", // updated
+          500: "#338CF5",
           600: "#0070F4",
           700: "#0064DA",
           800: "#0059C2",
@@ -53,12 +70,18 @@ module.exports = {
         lg: "0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02)",
         xl: "0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.02)",
         "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.15)",
-        "3xl": "-5px 5px 0px #d1bfae",
-        "4xl": "-8px 8px 0px #d1bfae",
-        "5xl": "-3px 3px 0px #5e5e5e", // isn't actually a larger shadow
         inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.04)",
         outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
         none: "none",
+      },
+      borderWidth: {
+        3: "3px",
+      },
+      dropShadow: {
+        "3xl": [
+          "0 15px 25px rgba(0, 0, 0, 0.35)",
+          "0 25px 45px rgba(0, 0, 0, 0.15)",
+        ],
       },
       spacing: {
         "9/16": "56.25%",
@@ -66,9 +89,10 @@ module.exports = {
         "1/1": "100%",
       },
       fontFamily: {
-        // inter: ["Inter", "sans-serif"],
-        financier: ["var(--font-financier)"],
-        montreal: ["var(--font-montreal)"],
+        // sans: ["Source Sans Pro", "sans-serif"],
+        sans: ["Graphik", "sans-serif"],
+        // sans: ["Montserrat", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       fontSize: {
         xs: "0.75rem",
@@ -80,7 +104,7 @@ module.exports = {
         "3xl": "2rem",
         "4xl": "2.625rem",
         "5xl": "3.25rem",
-        "6xl": "5.5rem",
+        "6xl": "4rem",
       },
       inset: {
         "1/2": "50%",
@@ -92,7 +116,7 @@ module.exports = {
         normal: "0",
         wide: "0.01em",
         wider: "0.02em",
-        widest: "0.4em",
+        widest: "0.08em",
       },
       lineHeight: {
         none: "1",
@@ -115,6 +139,10 @@ module.exports = {
         10: "2.5rem",
         48: "12rem",
       },
+      maxWidth: {
+        "5xl": "68rem",
+        "8xl": "85rem",
+      },
       opacity: {
         90: "0.9",
       },
@@ -135,5 +163,4 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
 };
