@@ -1,6 +1,6 @@
 import React from "react";
 import SectionWrapper from "../ui/SectionWrapper";
-import FounderImg from "public/images/Founders.png";
+import FounderImg from "public/images/Founders.webp";
 import Image from "next/image";
 // import Profile from "../ui/Profile";
 

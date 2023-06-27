@@ -1,12 +1,12 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
-import Display1Img from "public/images/Display-1.png";
-import Display2Img from "public/images/Display-2.png";
-import Display3Img from "public/images/Display-3.png";
-import Display4Img from "public/images/Display-4.png";
-import Display5Img from "public/images/Display-5.png";
-import Display6Img from "public/images/Display-6.png";
+import Display1Img from "public/images/Display-1.webp";
+import Display2Img from "public/images/Display-2.webp";
+import Display3Img from "public/images/Display-3.webp";
+import Display4Img from "public/images/Display-4.webp";
+import Display5Img from "public/images/Display-5.webp";
+import Display6Img from "public/images/Display-6.webp";
 
 const Carousel = () => {
   const pictures = [

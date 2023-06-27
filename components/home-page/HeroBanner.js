@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 import BlueLink from "../ui/BlueLink";
 import SectionWrapper from "../ui/SectionWrapper";
 import Image from "next/image";
-import HeroBannerImg from "public/images/HeroBanner.png";
+import HeroBannerImg from "public/images/HeroBanner.webp";
 
 function HeroBanner() {
   return (
