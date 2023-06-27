@@ -28,6 +28,24 @@ const Carousel = () => {
     {
       image: Display6Img,
     },
+    {
+      image: Display1Img,
+    },
+    {
+      image: Display2Img,
+    },
+    {
+      image: Display3Img,
+    },
+    {
+      image: Display4Img,
+    },
+    {
+      image: Display5Img,
+    },
+    {
+      image: Display6Img,
+    },
   ];
 
   return (
