@@ -88,7 +88,7 @@ function Header() {
             <li className="mr-4">
               <a
                 className="flex justify-center items-center text-white bg-highlight-orange hover:bg-highlight-sunlight rounded-full transition duration-150 ease-in-out"
-                href="https://www.facebook.com/pacefitnessglobal/"
+                href="https://www.instagram.com/pacefitness.sg"
                 target="_blank"
                 aria-label="Instagram"
               >
