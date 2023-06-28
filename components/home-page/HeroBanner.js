@@ -31,7 +31,7 @@ function HeroBanner() {
               </p>
               <Button
                 size="large"
-                primaryText="Join our Telegram"
+                primaryText="Join our Community"
                 secondaryText="Embark on a transformative fitness journey with the support of our empowering community!"
                 addClassName="justify-center mx-auto"
                 link="https://t.me/pacefitness"
@@ -61,11 +61,11 @@ function HeroBanner() {
       /> */}
 
       {/* Link */}
-      <BlueLink
+      {/* <BlueLink
         link="#features"
         primaryText="Find out more about what we do!"
         size="large"
-      />
+      /> */}
     </SectionWrapper>
   );
 }

@@ -17,7 +17,7 @@ const CTA = () => {
         <Button
           size="large"
           primaryText="Join our Telegram"
-          secondaryText="Embark on a transformative fitness journey with the support of our empowering community!"
+          // secondaryText="Embark on a transformative fitness journey with the support of our empowering community!"
           addClassName="justify-center mx-auto"
           link="https://t.me/pacefitness"
         />

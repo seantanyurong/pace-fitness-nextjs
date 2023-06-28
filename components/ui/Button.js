@@ -5,7 +5,7 @@ const Button = (props) => {
     switch (param) {
       case "small":
         return (
-          <div className=" bg-primary-main hover:bg-primary-hover font-extrabold py-3 px-3 rounded-full items-center">
+          <div className=" bg-primary-main hover:bg-primary-hover font-extrabold py-3 px-6 rounded-full items-center">
             <h3 className="text-sm sm:text-base text-white">
               {props.primaryText}
             </h3>
@@ -31,7 +31,7 @@ const Button = (props) => {
 
   return (
     <div className={`max-w-none flex ${props.addClassName}`}>
-      <a href={props.link} target="_blank" rel="noreferrer">
+      <a href={props.link} rel="noreferrer">
         {renderSwitch(props.size)}
       </a>
     </div>

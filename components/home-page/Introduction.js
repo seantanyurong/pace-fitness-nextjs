@@ -41,7 +41,7 @@ function Introduction() {
     >
       <div className="grid grid-cols-7 gap-y-16 sm:gap-16 w-full">
         {/* Left column - introduction */}
-        <div className="col-span-7 lg:col-span-5">
+        <div className="col-span-7 lg:col-span-7">
           <h2 className="mb-3">
             Elevating women’s fitness with mindful support and community.
           </h2>
@@ -72,7 +72,7 @@ function Introduction() {
         </div>
 
         {/* Right column - submenu */}
-        <div className="col-span-6 lg:col-span-2">
+        {/* <div className="col-span-6 lg:col-span-2">
           <YellowContainer
             content={
               <div>
@@ -81,7 +81,7 @@ function Introduction() {
               </div>
             }
           />
-        </div>
+        </div> */}
       </div>
       <Divider addClassName="mt-16" />
     </SectionWrapper>

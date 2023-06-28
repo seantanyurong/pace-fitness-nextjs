@@ -24,7 +24,10 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-text-main">
-              <h5 to="#" className="text-text-main text-lg font-extrabold mb-2">
+              <h5
+                to="#"
+                className="text-primary-light text-lg font-extrabold mb-2"
+              >
                 A community for women's fitness.
               </h5>
               <p to="#" className="text-text-main">

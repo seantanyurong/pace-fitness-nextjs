@@ -80,21 +80,21 @@ body {
     @apply text-4xl;
     @apply md:text-6xl;
     @apply font-black;
-    @apply text-text-main;
+    @apply text-primary-light;
     @apply leading-none;
   }
 
   h2 {
     @apply text-3xl;
     @apply font-black;
-    @apply text-text-main;
+    @apply text-primary-light;
     @apply leading-tighter;
   }
 
   h4 {
     @apply text-lg;
     @apply font-semibold;
-    @apply text-text-main;
+    @apply text-primary-light;
   }
 
   p {

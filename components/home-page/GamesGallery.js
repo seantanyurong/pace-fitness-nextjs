@@ -64,7 +64,7 @@ function GamesGallery() {
             {feature1.textFirst ? (
               <>
                 "{feature1.text}{" "}
-                <mark className="bg-highlight-yellow">
+                <mark className="bg-highlight-sunlight">
                   {feature1.highlightedText}
                 </mark>
                 ."
@@ -72,7 +72,7 @@ function GamesGallery() {
             ) : (
               <>
                 "
-                <mark className="bg-highlight-yellow">
+                <mark className="bg-highlight-sunlight">
                   {feature1.highlightedText}
                 </mark>{" "}
                 {feature1.text}
@@ -84,7 +84,7 @@ function GamesGallery() {
             {feature2.textFirst ? (
               <>
                 "{feature2.text}{" "}
-                <mark className="bg-highlight-yellow">
+                <mark className="bg-highlight-sunlight">
                   {feature2.highlightedText}
                 </mark>
                 ."
@@ -92,7 +92,7 @@ function GamesGallery() {
             ) : (
               <>
                 "
-                <mark className="bg-highlight-yellow">
+                <mark className="bg-highlight-sunlight">
                   {feature2.highlightedText}
                 </mark>{" "}
                 {feature2.text}
